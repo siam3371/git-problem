@@ -1,4 +1,85 @@
-.coloring{
-    color: red;
-    
+body{
+    font-family: 'Poppins', sans-serif;}
+
+.identity{
+    text-align: center;
+    color: orange;}
+:hover.identity  {
+color: rgb(90, 54, 123);}
+.order-head{
+    display: flex;
+ } 
+
+ .design-text{
+    color: rgb(135, 137, 29);
+ }
+.hiper_tag{
+    margin: 20px;
 }
+.order{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(57, 25, 25);
+}
+.btn-order{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    height: 40px;
+    font-size: 20px; 
+    width: 20%;  
+        
+    background-color: rgb(226, 172, 24) ;
+    border-radius: 20px;
+}
+/* about start */
+.about{
+    display: flex;
+    text-align: center;  
+    justify-content: center;
+}
+.about-owner{
+    background-color: rgb(32, 142, 105);
+        border-radius: 20px; 
+}
+ .img-order{
+    margin-right:  200px ;
+ }
+ .order-p{
+    margin: 30px;
+    font-weight: 500
+ }
+.about-link{
+    text-decoration: none;
+    margin:20px;
+    width: 30%;
+    height:30%;
+    color: white ;
+     font-weight: 700;
+    font-size: 20px
+
+}
+/* about end */
+/* food recipes  start*/
+.food-header{
+    color: green;
+    text-align: center;
+}
+
+/* food recipes end */
+.food-recipe{
+    text-align: center;
+    display: flex;
+    margin : 10px;
+}
+.shadow{
+    box-shadow: 5px 5px 10px 2px rgba(90, 20, 20, 0.8);
+
+}
+/* footer start */
+.footer{
+    text-align: center;
+}
+.footer-end{
+text-shadow: 2px 2px 2px  ;
+}
+/* footer end */
